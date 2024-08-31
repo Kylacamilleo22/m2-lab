@@ -42,7 +42,7 @@ h1{
   padding: 10px;
 }
 
-.buttonHello {
+#buttonHello {
   background-color: rgb(119, 85, 53);
   color: #ffffff;
   cursor: pointer;
@@ -51,7 +51,7 @@ h1{
   padding: 10px;
 }
 
-.buttonHello:hover {
+#buttonHello:hover {
   background-color: rgb(157, 126, 97);
 
 }

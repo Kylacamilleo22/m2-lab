@@ -8,6 +8,7 @@ function loaded() {
     document.getElementById('helloButton').addEventListener('click', () => {
         const hello = sayHello();
         document.getElementById('output').textContent = hello;
+        alert(hello);
         console.log(hello);
     });
 }
