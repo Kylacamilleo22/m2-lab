@@ -4,9 +4,12 @@ window.onload = loaded;
  * Simple Function that will be run when the browser is finished loading.
  */
 function loaded() {
-    // Assign to a variable so we can set a breakpoint in the debugger!
-    const hello = sayHello();
-    console.log(hello);
+    // Bind the button click event to the sayHello function
+    document.getElementById('helloButton').addEventListener('click', () => {
+        const hello = sayHello();
+        document.getElementById('output').textContent = hello;
+        console.log(hello);
+    });
 }
 
 /**
@@ -16,3 +19,4 @@ function loaded() {
 export function sayHello() {
     return 'hello';
 }
+

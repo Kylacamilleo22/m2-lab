@@ -9,10 +9,30 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  <h1>HTML Rocks!</h1>
-  <img src="img/compile.jpeg">
-  <script type="module" src="js/main.js"></script>
+<body class="background">
+  <h1>About</h1>
+  <div class="border">
+    <div class="row">
+    <div class="column">
+      <ul class="list">
+        <li>My name is Kyla Camille Ocampo</li>
+        <li>I am hoping to graduate in Spring 2025</li>
+        <li>I don't have a current job doing web development</li>
+        <li>I haven't done a job or internship doing web development, hopefully in the future!</li>
+      </ul>
+    </div>
+    <div class="column">
+      <img class="me" src="img/m3.jpg">
+    </div>
+    </div>
+    <button onclick="sayHello()">Hello</button>
+  </div>
+
+<script>
+  function sayHello() {
+    alert("Hello!");
+  }
+</script>
 </body>
 
 </html>
