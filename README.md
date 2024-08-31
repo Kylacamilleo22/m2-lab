@@ -17,3 +17,4 @@ To run,
 - W3Schools:
   - https://www.w3schools.com/jsref/event_onclick.asp
   - https://www.w3schools.com/howto/howto_css_alert_buttons.asp
+  - https://www.w3schools.com/howto/howto_css_two_columns.asp
